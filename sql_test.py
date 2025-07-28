@@ -7,7 +7,7 @@ import re
 import uuid 
 import pandas as pd 
 import matplotlib.pyplot as plt 
-
+from dotenv import load_dotenv
 # --- LangChain Imports ---
 from langchain_community.utilities import SQLDatabase
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
@@ -20,7 +20,7 @@ from langchain_core.vectorstores import InMemoryVectorStore
 from langchain_ollama import OllamaEmbeddings
 # --- FIX --- Import PromptTemplate to help our new tool generate SQL
 from langchain_core.prompts import PromptTemplate
-
+load_dotenv()
 # =================================================================================================
 # App Configuration
 # =================================================================================================
