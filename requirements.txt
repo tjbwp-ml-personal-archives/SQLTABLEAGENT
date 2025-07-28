@@ -4,6 +4,7 @@ streamlit
 # --- Data Handling and Plotting ---
 pandas
 matplotlib
+python-dotenv
 
 # --- Core LangChain Libraries ---
 # The main orchestration library
