@@ -1,0 +1,29 @@
+# --- Core Application Framework ---
+streamlit
+
+# --- Data Handling and Plotting ---
+pandas
+matplotlib
+
+# --- Core LangChain Libraries ---
+# The main orchestration library
+langchain
+# Core data structures (messages, prompts)
+langchain-core
+# Community-maintained integrations and tools
+langchain-community
+# For creating agent graphs
+langgraph
+
+# --- LLM and Embedding Model Integrations ---
+# For connecting to Google's Gemini models
+langchain-google-genai
+# For connecting to local Ollama models for embeddings
+langchain-ollama
+
+# --- Database and SQL Connectivity ---
+# Core SQL abstraction library used by LangChain
+sqlalchemy
+# For connecting to Databricks
+sqlalchemy-databricks
+databricks-sql-connector
