@@ -117,7 +117,7 @@ def get_agent_executor(db_uri, dialect, proper_noun_config):
     try:
         db = SQLDatabase.from_uri(db_uri)
         os.environ["GEMINI_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-        llm = init_chat_model("gemini-2.0-flash", model_provider="google_genai")
+        llm = init_chat_model("gemini-2.5-flash", model_provider="google_genai")
     except Exception as e:
         st.error(f"Initialization failed: {e}")
         st.stop()
